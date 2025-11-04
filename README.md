@@ -1,5 +1,5 @@
 # 🕓 Cyber Circuit Clock — Animated SVG Clock with GSAP
-
+https://github.com/dhall-afdhal/Cyber-Circuit-Clock/blob/main/Cyber-Circuit-Clock.png
 **Cyber Circuit Clock** adalah sebuah proyek eksperimen animasi jam berbasis **SVG** dan **GSAP (GreenSock Animation Platform)**.  
 Proyek ini menampilkan elemen visual dinamis seperti efek sirkuit futuristik, morfing bentuk jarum, serta animasi partikel bercahaya dengan nuansa cyberpunk yang interaktif.  
 Selain itu, sistem ini dilengkapi dengan fitur **multi mode** (🕷️ Spider, ⚡ Cyber, ⚙️ Gear) yang memungkinkan pengguna untuk beralih antar tema secara real-time.
