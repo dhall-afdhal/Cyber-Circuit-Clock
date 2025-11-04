@@ -1,13 +1,13 @@
 # 🕓 Cyber Circuit Clock — Animated SVG Clock with GSAP
-https://github.com/dhall-afdhal/Cyber-Circuit-Clock/blob/main/Cyber-Circuit-Clock.png
+
+![Cyber Circuit Clock Preview](https://raw.githubusercontent.com/dhall-afdhal/Cyber-Circuit-Clock/main/Cyber-Circuit-Clock.png)
+
 **Cyber Circuit Clock** adalah sebuah proyek eksperimen animasi jam berbasis **SVG** dan **GSAP (GreenSock Animation Platform)**.  
 Proyek ini menampilkan elemen visual dinamis seperti efek sirkuit futuristik, morfing bentuk jarum, serta animasi partikel bercahaya dengan nuansa cyberpunk yang interaktif.  
 Selain itu, sistem ini dilengkapi dengan fitur **multi mode** (🕷️ Spider, ⚡ Cyber, ⚙️ Gear) yang memungkinkan pengguna untuk beralih antar tema secara real-time.
 
 ---
-
 ## 🚀 Fitur Utama
-
 - ⚡ **Animasi Cyber Circuit** dengan efek glow, morph, dan pulse
 - 🕷️ **Mode Selector**: Spider, Cyber, dan Gear — dapat diganti langsung
 - ⏱️ **Gerakan Jarum Jam Real-Time** (Jam, Menit, Detik)
@@ -17,7 +17,6 @@ Selain itu, sistem ini dilengkapi dengan fitur **multi mode** (🕷️ Spider, �
 - 🎨 Desain responsif dan ringan, cocok untuk eksperimen kreatif visual web
 
 ---
-
 ## 🧩 Teknologi yang Digunakan
 
 | Komponen | Deskripsi |
@@ -28,17 +27,13 @@ Selain itu, sistem ini dilengkapi dengan fitur **multi mode** (🕷️ Spider, �
 | **GSAP 3 + MorphSVGPlugin** | Mesin animasi utama untuk gerakan halus dan transformasi SVG |
 
 ---
-
 ## 🧠 Latar Belakang
-
 Proyek ini dikembangkan oleh **[Dhall Afdhal](https://github.com/dhall-afdhal)** sebagai hasil eksplorasi animasi interaktif berbasis SVG.  
 Inspirasi awal diambil dari konsep dan struktur kode animasi SVG karya komunitas pengembang kreatif, termasuk referensi dari proyek milik *developer independen* di bidang eksperimen visual.  
 Selanjutnya dilakukan **penyesuaian, optimasi, dan penambahan fitur orisinal**, termasuk integrasi mode dinamis dan efek cyberpunk.
 
 ---
-
 ## 💡 Cara Menjalankan
-
-1. **Klon repositori ini**  
+1. **Klon repositori ini**
    ```bash
    git clone https://github.com/dhall-afdhal/Cyber-Circuit-Clock.git
