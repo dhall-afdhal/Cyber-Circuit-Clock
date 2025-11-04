@@ -1,0 +1,109 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;  
+
+  /* gabungkan semuanya jadi satu layer */
+  background:
+    linear-gradient(135deg, rgba(35,37,38,0.85) 0%, rgba(65,67,69,0.85) 100%),
+    url("background.jpg") center/cover no-repeat;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* biar tetap di belakang saat scroll */
+}
+
+#modeSelector {
+  position: fixed;
+  top: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+
+#modeSelector button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s;
+}
+
+#modeSelector button.active {
+  background: #00f5ff;
+  color: #000;
+  box-shadow: 0 0 10px #00f5ff;
+}
+
+
+.vline {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  height: 50vh;
+  width: 2px;
+  background-color: #00ffcc;
+  z-index: -1;
+  opacity: 0.5;
+  visibility: hidden;
+}
+
+.gsapWrapper {
+
+  visibility: hidden;
+
+  #wBody {
+
+    position: relative;
+    aspect-ratio: 1/1;
+    filter: drop-shadow(0 0 10px #00ffaa);
+
+    @media (orientation: landscape) {
+      width: 65vh;
+    }
+
+    @media (orientation: portrait) {
+      height: 65vw;
+    }
+
+
+    #watch {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1/1;
+      overflow: visible;
+
+      svg {
+        overflow: visible;
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+
+  }
+
+}
+
+.spark {
+  pointer-events: none;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 8px #00f5ff);
+}
